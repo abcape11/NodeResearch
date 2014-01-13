@@ -28,6 +28,7 @@ function rootHandler(request, response) {
   // response.write appends bytes to an array that makes up the response body.
   // You can call this method as many times as you want before ending the response.
   response.write('Hello World\n');
+  response.write('Goodbye\n');
 
   // tell the response we're ready to transmit it to the browser that made the request.
   response.end();
